@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Logos mb-6 />
+  <div class="">
+    <Logos v-for="i in 80" :key="i" mb-6 />
     <Suspense>
       <PageView />
       <template #fallback>
