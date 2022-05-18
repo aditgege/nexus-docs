@@ -1,3 +1,13 @@
+<script>
+useHead({
+  script: [
+    {
+      src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
+    },
+  ],
+})
+</script>
+
 <template>
   <div class="">
     <Logos v-for="i in 80" :key="i" mb-6 />
